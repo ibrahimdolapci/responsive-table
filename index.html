@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Address</th>
+    <th>Tags</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>John Brown</td>
+    <td data-th="Age">32</td>
+    <td data-th="Address">New York No. 1 Lake Park</td>
+    <td data-th="Tags">
+      <span class="tag tag-geekblue">DEVELOPER</span>
+      <span class="tag tag-green">NICE</span>
+    </td>
+  </tr>
+  <tr>
+    <td>Jim Green</td>
+    <td data-th="Age">42</td>
+    <td data-th="Address">London No. 1 Lake Park</td>
+    <td data-th="Tags">
+      <span class="tag tag-volcano">LOSER</span>
+    </td>
+  </tr>
+  <tr>
+    <td>Joe Black</td>
+    <td data-th="Age">32</td>
+    <td data-th="Address">Sidney No. 1 Lake Park</td>
+    <td data-th="Tags">
+      <span class="tag tag-green">COOL</span>
+      <span class="tag tag-geekblue">TEACHER</span>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

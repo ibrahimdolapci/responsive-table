@@ -1,0 +1,43 @@
+@media (max-width: 749px) {
+  table, tbody, tr, th, td {
+    display: block
+  }
+
+  thead {
+    display: none
+  }
+
+  td:nth-child(n+2)::before {
+    content: attr(data-th) ": "
+  }
+
+  td:first-of-type {
+    background-color: tomato;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  tr {
+    margin-bottom: .5em;
+  }
+
+  td {
+    border-top: 0;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: tomato;
+  color: #fff;
+  font-weight: 500;
+}
+
+td, th {
+  padding: .5em .5em;
+  border: .05em solid #bbb;
+}
